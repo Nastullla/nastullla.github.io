@@ -382,3 +382,62 @@ a:focus, a:hover, a:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
+
+.my-photo {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.masthead .job-title {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.about-header {
+  margin-bottom: 40px;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  text-align: center;
+}
+
+.certificate-title {
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.contact-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.contact-title {
+  width: 250px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #18bc9c;
+}
+
+.contact-value {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
