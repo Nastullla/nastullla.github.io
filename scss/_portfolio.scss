@@ -28,6 +28,20 @@
   }
 }
 
+.portfolio-item {
+  height: 316px;
+
+  overflow-y: hidden;
+
+  @media (min-width: 768px) {
+    height: 260px;
+  }
+
+  @media (min-width: 992px) {
+    height: 229px;
+  }
+}
+
 .portfolio-modal {
   .portfolio-modal-dialog {
     padding: 3rem 1rem;
@@ -60,4 +74,63 @@
       }
     }
   }
+}
+
+.portfolio-description {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+
+  text-align: left;
+}
+
+.portfolio-features {
+  padding-left: 10px;
+
+  list-style: none;
+
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2;
+
+  text-align: left;
+}
+
+.portfolio-features li::before {
+  position: relative;
+  top: -0.3em;
+  display: inline-block;
+  padding: 1em;
+  content: '\f005';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 0.5em;
+}
+
+.portfolio-img {
+  display: block;
+
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.portfolio-repository {
+  display: block;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  font-family: Montserrat;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.portfolio-btn {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
 }

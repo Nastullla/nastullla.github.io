@@ -18,6 +18,10 @@ h6 {
   font-family: 'Montserrat';
 }
 
+#page-top {
+  min-width: 400px;
+}
+
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -236,6 +240,23 @@ header.masthead h2 {
   }
 }
 
+.portfolio-item {
+  height: 316px;
+  overflow-y: hidden;
+}
+
+@media (min-width: 768px) {
+  .portfolio-item {
+    height: 260px;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-item {
+    height: 229px;
+  }
+}
+
 .portfolio-modal .portfolio-modal-dialog {
   padding: 3rem 1rem;
   min-height: calc(100vh - 2rem);
@@ -269,6 +290,58 @@ header.masthead h2 {
   .portfolio-modal .portfolio-modal-dialog h2 {
     font-size: 3rem;
   }
+}
+
+.portfolio-description {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.portfolio-features {
+  padding-left: 10px;
+  list-style: none;
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.portfolio-features li::before {
+  position: relative;
+  top: -0.3em;
+  display: inline-block;
+  padding: 1em;
+  content: '\f005';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 0.5em;
+}
+
+.portfolio-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.portfolio-repository {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.portfolio-btn {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .floating-label-form-group {
@@ -322,6 +395,24 @@ header.masthead h2 {
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
+}
+
+.contact-title {
+  display: none;
+}
+
+.contact-value {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .contact-title {
+    display: block;
+  }
+  .contact-value {
+    margin-left: 0;
+  }
 }
 
 .footer {
@@ -406,6 +497,10 @@ a:focus, a:hover, a:active {
   text-align: center;
 }
 
+.about-wrap {
+  padding-bottom: 30px;
+}
+
 .certificate-title {
   margin-bottom: 20px;
   font-family: Montserrat;
@@ -413,13 +508,34 @@ a:focus, a:hover, a:active {
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
+  text-align: center;
+}
+
+.certificate-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.about-profile {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.about-profile:hover {
+  color: #f0f0f0;
 }
 
 .contact-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
   padding-top: 40px;
 }
 

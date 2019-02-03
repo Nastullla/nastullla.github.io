@@ -75,6 +75,10 @@ a {
   text-align: center;
 }
 
+.about-wrap {
+  padding-bottom: 30px;
+}
+
 .certificate-title {
   margin-bottom: 20px;
 
@@ -83,12 +87,37 @@ a {
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
+
+  text-align: center;
+}
+
+.certificate-img {
+  display: block;
+
+  margin: 0 auto;
+}
+
+.about-profile {
+  display: block;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #ffffff;
+
+  &:hover {
+    color: #f0f0f0;
+  }
 }
 
 .contact-wrap {
   display: flex;
 
-  padding-bottom: 30px;
+  padding-bottom: 45px;
   padding-top: 40px;
 }
 
