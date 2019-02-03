@@ -98,11 +98,15 @@
   text-align: left;
 }
 
+.portfolio-features li {
+  margin-bottom: 3px;
+}
+
 .portfolio-features li::before {
   position: relative;
   top: -0.3em;
   display: inline-block;
-  padding: 1em;
+  padding: 0 1em;
   content: '\f005';
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
