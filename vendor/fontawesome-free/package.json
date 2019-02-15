@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.7.0",
-      "C:\\Users\\GRAND\\Desktop\\Project\\nastullla.github.io"
+      "C:\\Users\\Nastullla\\Desktop\\Projects\\nastullla.github.io"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.7.0",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.7.0.tgz",
   "_spec": "5.7.0",
-  "_where": "C:\\Users\\GRAND\\Desktop\\Project\\nastullla.github.io",
+  "_where": "C:\\Users\\Nastullla\\Desktop\\Projects\\nastullla.github.io",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",

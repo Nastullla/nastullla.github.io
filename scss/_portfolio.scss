@@ -42,6 +42,12 @@
   }
 }
 
+.portfolio-item-caption-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .portfolio-modal {
   .portfolio-modal-dialog {
     padding: 3rem 1rem;
@@ -138,3 +144,4 @@
   font-weight: 700;
   line-height: 1.2;
 }
+
