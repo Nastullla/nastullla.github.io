@@ -100,17 +100,33 @@ a {
 .about-profile {
   display: block;
 
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px 2px;
+
   text-align: center;
   text-decoration: none;
 
   font-family: Montserrat;
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 700;
   line-height: 1.2;
   color: #ffffff;
 
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+
   &:hover {
-    color: #f0f0f0;
+    text-decoration: none;
+    color: $gray-700;
+
+    background: #ffffff;
+  }
+
+  @media (min-width: 700px) {
+    width: 490px;
+    font-size: 1.6rem;
   }
 }
 

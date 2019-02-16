@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lato';
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 h1,
@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 #page-top {
@@ -111,7 +111,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
@@ -188,7 +188,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Lato';
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -197,7 +197,7 @@ header.masthead h2 {
     padding-bottom: 6rem;
   }
   header.masthead h1 {
-    font-size: 4.75em;
+    font-size: 4.5em;
     line-height: 4rem;
   }
   header.masthead h2 {
@@ -345,8 +345,8 @@ header.masthead h2 {
 
 .portfolio-repository {
   display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-family: Montserrat;
   font-size: 1.7rem;
   font-weight: 700;
@@ -534,17 +534,32 @@ a:focus, a:hover, a:active {
 
 .about-profile {
   display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px 2px;
   text-align: center;
   text-decoration: none;
   font-family: Montserrat;
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 700;
   line-height: 1.2;
   color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
 }
 
 .about-profile:hover {
-  color: #f0f0f0;
+  text-decoration: none;
+  color: #495057;
+  background: #ffffff;
+}
+
+@media (min-width: 700px) {
+  .about-profile {
+    width: 490px;
+    font-size: 1.6rem;
+  }
 }
 
 .contact-wrap {
